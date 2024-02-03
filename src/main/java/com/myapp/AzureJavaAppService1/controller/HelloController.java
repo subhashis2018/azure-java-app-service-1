@@ -12,5 +12,9 @@ public class HelloController {
 	public String getHello() {
 		return "hello";
 	}
+	@GetMapping("/test")
+	public String getTest() {
+		return "test";
+	}
 	
 }
